@@ -19,6 +19,7 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 }
 #hero {
     background: linear-gradient(
@@ -96,6 +97,10 @@
 }
 .card-container{
     margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
 }
 .card{
     max-width: 250px;
@@ -112,7 +117,6 @@
     width: 100%;
 }
 .card .shop{
-    background-color: antiquewhite;
     padding: 10px 18px 10px 18px;
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
